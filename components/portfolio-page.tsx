@@ -219,8 +219,9 @@ export function HeroSection() {
             AI engineer building production-grade <TypingLine /> for enterprise and UAE teams.
           </h1>
           <p className="mt-7 max-w-2xl text-base leading-8 text-muted-foreground sm:text-lg">
-            Vishwanath Rajendran is an AI Engineer, ML Engineer, and GenAI specialist with 1+ year of production
-            experience across LLM platforms, FastAPI backends, enterprise automation, RAG, NLP, and AI agents.
+            Vishwanath Rajendran is an AI Engineer, ML Engineer, GenAI specialist, and AI Fullstack Developer with 1+
+            year of production experience across LLM platforms, FastAPI backends, enterprise automation, RAG, NLP, and
+            AI agents.
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <Button size="lg" asChild>
