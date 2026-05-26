@@ -41,7 +41,7 @@ export const navItems = [
 ];
 
 export const stats = [
-  { label: "Production AI experience", value: "1+ yr" },
+  { label: "experience", value: "1+ yr" },
   { label: "Live enterprise products", value: "4" },
   { label: "Hiring focus", value: "UAE / Remote" }
 ];

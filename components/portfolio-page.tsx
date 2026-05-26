@@ -293,11 +293,12 @@ export function AboutSection() {
           title="A production AI engineer with backend depth and enterprise delivery proof."
           description="I build scalable AI applications, LLM-powered platforms, backend systems, and automation workflows that move from prototype to live business usage."
         />
-        <div className="grid gap-4 lg:grid-cols-3">
+        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           {[
-            "M.Sc. in Data Science & Business Analytics with production AI, ML, NLP, statistics, and backend engineering experience.",
-            "Led or contributed to three live enterprise systems: AI LMS, institutional career AI portal, and HRMS with biometric integration.",
-            "Open to Dubai, Abu Dhabi, UAE AI Engineer, ML Engineer, GenAI Specialist, and remote international opportunities."
+            "Data Science & Business Analytics background with production AI, ML, NLP, statistics, and backend engineering experience.",
+            "Led or contributed to four live enterprise systems: AI LMS, institutional career AI portal, HRMS with biometric integration, and client HRMS with GPS attendance.",
+            "Open to Dubai, Abu Dhabi, UAE AI Engineer, ML Engineer, GenAI Specialist, AI Fullstack Developer, and remote international opportunities.",
+            "Languages: English - Professional communication and Tamil - Native fluency for team collaboration and stakeholder updates."
           ].map((item, index) => (
             <Reveal key={item} delay={index * 0.06}>
               <Card className="h-full">
@@ -540,8 +541,7 @@ export function TechMarquee() {
         "GitHub Copilot",
         "Notion AI"
       ]
-    ],
-    ["Languages", ["English - Professional", "Tamil - Native"]]
+    ]
   ];
 
   return (
