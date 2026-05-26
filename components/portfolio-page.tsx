@@ -492,22 +492,18 @@ export function SkillsSection() {
 export function TechMarquee() {
   const priorityStack = [
     {
-      label: "Full-Stack AI Product Delivery",
-      text: "Learner dashboards, admin panels, course engines, exams, certificate workflows, and AI-enabled UX.",
-      result: "Deliver complete AI products from interface to backend logic",
-      icon: Code2
+      label: "Full-Stack AI Product + Backend Integration",
+      text: "Learner dashboards, admin panels, course engines, exams, certificate workflows, AI-enabled UX, Python, FastAPI, REST APIs, server database sync, HikVision integration, GPS attendance, and geo-fencing.",
+      result: "Deliver complete AI products from interface to backend logic and connect them with real business systems and operational data",
+      icon: Code2,
+      featured: true,
+      details: ["Product UI + workflows", "FastAPI backend systems", "Enterprise integrations"]
     },
     {
       label: "GenAI / LLM Systems",
       text: "LLM applications, RAG, AI agents, prompt engineering, semantic search, and domain chatbots.",
       result: "Build intelligent assistants for LMS, HRMS, documents, banking, and career workflows",
       icon: BrainCircuit
-    },
-    {
-      label: "Backend + Enterprise Integration",
-      text: "Python, FastAPI, REST APIs, server database sync, HikVision integration, GPS attendance, and geo-fencing.",
-      result: "Connect AI products with real business systems and operational data",
-      icon: ServerCog
     },
     {
       label: "Automation + Business Analytics",
@@ -518,7 +514,7 @@ export function TechMarquee() {
   ];
   const stackMatrix = [
     ["Programming & Querying", ["Python", "SQL", "R Programming"]],
-    ["Frontend Foundations", ["HTML", "CSS", "Responsive UI", "Accessible Interfaces"]],
+    ["Frontend Foundations", ["HTML", "CSS", "JavaScript", "Responsive UI", "Accessible Interfaces"]],
     ["Generative AI & LLMs", ["LLM Applications", "Agentic AI", "Retrieval-Augmented Generation", "AI Agents", "Prompt Engineering", "Semantic Search"]],
     ["Machine Learning & NLP", ["Supervised Learning", "Unsupervised Learning", "Feature Engineering", "Model Evaluation", "NLP", "Transformer Models"]],
     ["Deep Learning", ["Neural Networks", "CNNs", "RNNs", "Transfer Learning", "Transformer Fine-Tuning"]],
@@ -591,7 +587,10 @@ export function TechMarquee() {
                 return (
                   <div
                     key={item.label}
-                    className="rounded-lg border bg-background/72 p-4 shadow-sm transition hover:-translate-y-1 hover:border-primary/50 hover:bg-background/95"
+                    className={cn(
+                      "rounded-lg border bg-background/72 p-4 shadow-sm transition hover:-translate-y-1 hover:border-primary/50 hover:bg-background/95",
+                      "featured" in item && item.featured ? "sm:col-span-2" : ""
+                    )}
                   >
                     <div className="flex items-center justify-between gap-3">
                       <div className="flex items-center gap-3">
@@ -602,6 +601,18 @@ export function TechMarquee() {
                       </div>
                       <CheckCircle2 className="h-4 w-4 text-primary" />
                     </div>
+                    {"details" in item && item.details ? (
+                      <div className="mt-4 grid gap-2 sm:grid-cols-3">
+                        {item.details.map((detail) => (
+                          <span
+                            key={detail}
+                            className="rounded-md border border-primary/20 bg-primary/10 px-3 py-2 text-xs font-bold text-primary"
+                          >
+                            {detail}
+                          </span>
+                        ))}
+                      </div>
+                    ) : null}
                     <p className="mt-3 text-xs leading-5 text-muted-foreground">{item.text}</p>
                     <div className="mt-4 rounded-md bg-primary/10 px-3 py-2 text-xs font-bold text-primary">
                       {item.result}
