@@ -321,7 +321,7 @@ export function SkillsSection() {
     ["UAE Enterprise Fit", "Automation, analytics, dashboards, and measurable operations value"]
   ];
   const capabilityImpact: Record<string, string> = {
-    "Full-Stack AI Products": "End-to-end product screens, HTML/CSS interfaces, admin systems, learner workflows, exam journeys, and certificate automation",
+    "Full-Stack AI Products": "Recruiter-ready product delivery across learner dashboards, admin consoles, assessment screens, certificate automation, and API-connected user journeys",
     "GenAI & LLM Systems": "Domain AI assistants, RAG workflows, AI agents, prompt systems, and semantic search experiences",
     "Backend & API Engineering": "Python/FastAPI services, secure REST APIs, MySQL-backed workflows, assessment engines, data services, and integration layers",
     "ML, NLP & Data Science": "NLP, Transformer models, R Programming, feature engineering, model evaluation, statistics, and applied analytics",
@@ -329,7 +329,7 @@ export function SkillsSection() {
     "Enterprise Data Integration": "HikVision biometric sync, device-to-server pipelines, GPS attendance, geo-fencing, branch systems, and BI"
   };
   const capabilityProof: Record<string, string> = {
-    "Full-Stack AI Products": "DigiDARA AI Academy: frontend, backend, admin panel, learner dashboard, exam UI, certificate flow, and email notifications",
+    "Full-Stack AI Products": "DigiDARA AI Academy: delivered learner experience, admin control panel, course catalogue, exam UI, certificate workflow, email notifications, and backend-connected product flows",
     "GenAI & LLM Systems": "LMS platform assistant, course-specific chatbot, Career Mate, DOCUMIND, banking AI, Qdrant/FAISS-ready retrieval, and applied personal AI systems",
     "Backend & API Engineering": "Python/FastAPI delivery across LMS, career portal, HRMS, biometric sync, GPS attendance, and admin workflows",
     "ML, NLP & Data Science": "Resume-aligned coverage across NLP, Transformers, supervised/unsupervised learning, R Programming, evaluation, Pandas, NumPy, and Scikit-learn",
@@ -337,7 +337,7 @@ export function SkillsSection() {
     "Enterprise Data Integration": "DigiDARA People and GIA People: biometric integration, server DB sync, GPS check-in, 100m geo-fencing, and multi-branch HRMS"
   };
   const roleFit: Record<string, string> = {
-    "Full-Stack AI Products": "Product Layer",
+    "Full-Stack AI Products": "Product Delivery",
     "GenAI & LLM Systems": "AI Product Layer",
     "Backend & API Engineering": "Platform Layer",
     "ML, NLP & Data Science": "Intelligence Layer",
@@ -346,7 +346,7 @@ export function SkillsSection() {
   };
   const stackSummary = [
     ["Target roles", "AI Engineer, GenAI / LLM Specialist, AI Fullstack Developer"],
-    ["Best-fit teams", "Dubai AI startups, SaaS platforms, HR tech, enterprise automation"],
+    ["Best-fit teams", "Dubai AI startups, UAE AI companies, HR tech, enterprise automation"],
     ["Delivery proof", "4 live products: AI LMS, career portal, HRMS, client HRMS"],
     ["UAE signal", "Immediately available with production AI and business-system experience"]
   ];
@@ -357,7 +357,7 @@ export function SkillsSection() {
       <div className="container">
         <SectionHeading
           eyebrow="Technical Stack"
-          title="Resume-aligned AI engineering stack for UAE product, SaaS, and enterprise teams."
+          title="Resume-aligned AI engineering stack for UAE product and enterprise teams."
           description="Organized by hiring value: full-stack AI product delivery, GenAI systems, backend/API reliability, ML/NLP depth, automation, and real enterprise data integration."
         />
 
@@ -1018,11 +1018,12 @@ export function ContactSection() {
         <Reveal>
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.28em] text-primary">Contact</p>
           <h2 className="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
-            Let's discuss AI Engineer, ML Engineer, GenAI Specialist, Dubai startup, or remote SaaS opportunities.
+            Let's discuss AI Engineer, ML Engineer, GenAI Specialist, AI Full Stack Developer, Dubai startup, UAE AI
+            company, or remote opportunities.
           </h2>
           <p className="mt-5 text-lg leading-8 text-muted-foreground">
-            Best fit: AI Engineer, ML Engineer, LLM Application Engineer, GenAI Specialist, backend AI platform engineer,
-            or automation-focused product roles.
+            Best fit: AI Engineer, ML Engineer, LLM Application Engineer, GenAI Specialist, AI Full Stack Developer,
+            backend AI platform engineer, or automation-focused product roles.
           </p>
           <div className="mt-8 grid gap-3 sm:grid-cols-2">
             {contactActions.map((item) => {
@@ -1059,7 +1060,7 @@ export function ContactSection() {
               </div>
               <label className="grid gap-2 text-sm font-semibold">
                 Opportunity
-                <Input name="opportunity" placeholder="AI Developer role, SaaS build, consulting..." />
+                <Input name="opportunity" placeholder="AI Developer role, UAE AI company, consulting..." />
               </label>
               <label className="grid gap-2 text-sm font-semibold">
                 Message

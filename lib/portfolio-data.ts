@@ -51,7 +51,7 @@ export const skillGroups = [
     title: "Full-Stack AI Products",
     icon: Code2,
     level: 91,
-    skills: ["Learner dashboards", "Admin panels", "HTML/CSS", "Certificate flows", "Course catalogues", "Frontend integration"]
+    skills: ["Learner dashboards", "Admin console", "Assessment UI", "Certificate automation", "Course catalogue", "API-connected UX"]
   },
   {
     title: "GenAI & LLM Systems",
