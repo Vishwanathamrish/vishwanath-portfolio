@@ -25,7 +25,7 @@ export function Nav() {
           </span>
         </Link>
 
-        <div className="hidden items-center gap-1 rounded-lg border bg-background/78 p-1.5 shadow-sm backdrop-blur lg:flex">
+        <div className="hidden items-center gap-1 bg-transparent p-1.5 lg:flex">
           {navItems.map((item) => (
             <Link
               key={item.href}
