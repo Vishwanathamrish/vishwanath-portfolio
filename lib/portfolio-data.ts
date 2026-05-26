@@ -159,10 +159,10 @@ export const projects = [
     title: "DigiDARA AI Academy",
     category: "Live Enterprise LMS",
     description:
-      "AI-powered LMS backend covering course delivery, enrollments, certification exams, automated evaluation, certificate generation, email automation, admin analytics, and two AI chatbot systems: a general platform support chatbot plus a course-specific learning chatbot that works separately for each course.",
+      "AI-powered LMS covering course delivery, enrollments, certification exams, automated evaluation, certificate automation, admin control panel workflows, email automation, admin analytics, and two AI chatbot systems: a general platform support chatbot plus a course-specific learning chatbot that works separately for each course.",
     github: profile.github,
     live: "http://digidaraaiacademy.com/",
-    stack: ["Python", "FastAPI", "REST APIs", "LLM chatbots", "Email automation", "Admin dashboards"],
+    stack: ["LMS", "Admin Control Panel", "Certificate Automation", "Python", "FastAPI", "REST APIs", "LLM chatbots", "Email automation"],
     metrics: ["2 chatbot systems", "~80% less manual certification work"],
     coverImage: "/assets/DigiDARA%20AI%20Academy.png",
     accent: "teal"
@@ -183,10 +183,10 @@ export const projects = [
     title: "DigiDARA People",
     category: "Live HRMS + Biometric AI",
     description:
-      "Production HRMS with employee management, attendance, leave workflows, HikVision biometric data sync, and two AI chatbots for public and authenticated employee queries.",
+      "Production HRMS with employee management, attendance, leave workflows, MySQL-backed server data, HikVision biometric device-to-server sync, and two AI chatbots for public and authenticated employee queries.",
     github: profile.github,
     live: "https://digidarapeople.com",
-    stack: ["Python", "FastAPI", "HikVision", "Cron/Celery", "LLM chatbots", "REST APIs"],
+    stack: ["HRMS", "MySQL", "HikVision Biometric Integration", "Device-to-Server Sync", "Python", "FastAPI", "Cron/Celery", "LLM chatbots"],
     metrics: ["30-min sync", "2-3 hrs/day saved"],
     coverImage: "/assets/DigiDARA People.png",
     accent: "blue"
@@ -195,10 +195,10 @@ export const projects = [
     title: "GIA People",
     category: "Client HRMS + GPS Attendance",
     description:
-      "Client-facing HRMS extending DigiDARA People with GPS-based attendance, 100m geo-fenced mobile check-in, independent multi-branch employee/attendance/leave data, and centralized branch-level admin control.",
+      "Client-facing HRMS extending DigiDARA People with GPS attendance, 100m geo-fenced mobile check-in, MySQL-backed HR data, independent multi-branch employee/attendance/leave data, and centralized branch-level admin control.",
     github: profile.github,
     live: "coming-soon",
-    stack: ["Full-stack HRMS", "GPS attendance", "Geo-fencing", "Multi-branch management", "FastAPI", "Admin dashboard"],
+    stack: ["HRMS", "GPS Attendance", "100m Geo-Fencing", "MySQL", "Multi-Branch Management", "FastAPI", "Admin dashboard"],
     metrics: ["100m geo-fence", "Mobile attendance", "Branch-level control"],
     coverImage: "/assets/GIA People.png",
     accent: "teal"

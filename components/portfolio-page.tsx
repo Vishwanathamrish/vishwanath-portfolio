@@ -522,8 +522,6 @@ export function TechMarquee() {
     ["Frameworks & Backend", ["FastAPI", "LangChain", "Streamlit", "REST API Design"]],
     ["Libraries & Vector Search", ["Hugging Face Transformers", "FAISS", "Qdrant", "Scikit-learn", "Pandas", "NumPy"]],
     ["Deployment & DevOps", ["Docker", "Git", "GitHub", "Cron Jobs", "Celery"]],
-    ["Databases & Data Integration", ["MySQL", "HikVision Biometric Integration", "Device-to-Server Sync", "GPS Attendance", "100m Geo-Fencing"]],
-    ["Enterprise Product Systems", ["LMS", "HRMS", "Admin Control Panel", "Multi-Branch Management", "Certificate Automation"]],
     ["Analytics & BI", ["Power BI", "Microsoft Excel", "Real-Time Analytics", "Business Reporting"]],
     ["Automation & Development Tools", ["n8n", "Flowise", "VS Code", "Google Colab", "Replit", "Rocket", "LLM Flow Builder"]],
     [
