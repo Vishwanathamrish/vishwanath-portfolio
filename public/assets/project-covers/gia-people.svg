@@ -1,0 +1,32 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="36" fill="#F8FBFC"/>
+  <rect width="1200" height="750" rx="36" fill="url(#bg)"/>
+  <path d="M742 202h38v326h-38zM806 128h50v400h-50zM878 250h36v278h-36zM938 174h62v354h-62zM1028 98h42v430h-42z" fill="#0F172A" opacity=".045"/>
+  <circle cx="1014" cy="98" r="218" fill="#14B8A6" opacity=".10"/>
+  <circle cx="120" cy="670" r="230" fill="#F59E0B" opacity=".08"/>
+  <rect x="54" y="48" width="1092" height="654" rx="30" fill="white" fill-opacity=".78" stroke="#CAD8E5"/>
+  <circle cx="92" cy="86" r="9" fill="#F87171"/><circle cx="122" cy="86" r="9" fill="#FBBF24"/><circle cx="152" cy="86" r="9" fill="#34D399"/>
+  <text x="84" y="144" fill="#0F766E" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="5">CLIENT HRMS + GPS ATTENDANCE</text>
+  <text x="84" y="199" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="900">GIA People</text>
+  <text x="86" y="238" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="20">Mobile attendance and multi-branch HRMS operations for enterprise clients</text>
+  <rect x="84" y="300" width="384" height="244" rx="26" fill="#FFFFFF" stroke="#D5E2EC"/>
+  <text x="116" y="350" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">GPS Check-in</text>
+  <circle cx="276" cy="436" r="76" fill="#CCFBF1" stroke="#5EEAD4" stroke-width="3"/>
+  <circle cx="276" cy="436" r="14" fill="#0F766E"/>
+  <text x="200" y="528" fill="#0F766E" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">100m Geo-Fence</text>
+  <rect x="520" y="300" width="544" height="244" rx="26" fill="#FFFFFF" stroke="#D5E2EC"/>
+  <text x="552" y="350" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">Branch Control</text>
+  <rect x="552" y="400" width="130" height="82" rx="18" fill="#ECFDF5" stroke="#A7E8DA"/>
+  <rect x="714" y="400" width="130" height="82" rx="18" fill="#FFFBEB" stroke="#F8DD9A"/>
+  <rect x="876" y="400" width="130" height="82" rx="18" fill="#EFF6FF" stroke="#C8DDF2"/>
+  <text x="586" y="448" fill="#0F766E" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">Branch A</text>
+  <text x="748" y="448" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">Branch B</text>
+  <text x="910" y="448" fill="#1D4ED8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">Branch C</text>
+  <rect x="84" y="612" width="214" height="50" rx="18" fill="#FFFFFF" stroke="#A7E8DA"/>
+  <text x="116" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">GPS Attendance</text>
+  <rect x="318" y="612" width="214" height="50" rx="18" fill="#FFFFFF" stroke="#F8DD9A"/>
+  <text x="350" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Geo-Fencing</text>
+  <rect x="552" y="612" width="260" height="50" rx="18" fill="#FFFFFF" stroke="#C8DDF2"/>
+  <text x="584" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Multi-Branch Admin</text>
+  <defs><linearGradient id="bg" x1="0" x2="1200" y1="0" y2="750"><stop stop-color="#E6FAF8"/><stop offset=".52" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFF7E8"/></linearGradient></defs>
+</svg>

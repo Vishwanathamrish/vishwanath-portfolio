@@ -1,0 +1,20 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="36" fill="#F8FBFC"/><rect width="1200" height="750" rx="36" fill="url(#bg)"/>
+  <rect x="54" y="48" width="1092" height="654" rx="30" fill="white" fill-opacity=".78" stroke="#CAD8E5"/>
+  <circle cx="92" cy="86" r="9" fill="#F87171"/><circle cx="122" cy="86" r="9" fill="#FBBF24"/><circle cx="152" cy="86" r="9" fill="#34D399"/>
+  <text x="84" y="144" fill="#1D4ED8" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="5">LLM HEALTH ASSISTANT</text>
+  <text x="84" y="199" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="900">AI Health &amp; Wellness Coach</text>
+  <text x="86" y="238" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="20">Personalized recommendations, health metrics, dashboards, and voice responses</text>
+  <rect x="84" y="300" width="460" height="244" rx="26" fill="#FFFFFF" stroke="#D5E2EC"/>
+  <text x="116" y="350" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">Wellness Metrics</text>
+  <rect x="116" y="392" width="110" height="96" rx="18" fill="#EFF6FF" stroke="#C8DDF2"/><rect x="252" y="392" width="110" height="96" rx="18" fill="#ECFDF5" stroke="#A7E8DA"/><rect x="388" y="392" width="110" height="96" rx="18" fill="#FFFBEB" stroke="#F8DD9A"/>
+  <text x="146" y="448" fill="#1D4ED8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">Sleep</text><text x="284" y="448" fill="#0F766E" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">Mood</text><text x="414" y="448" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">Steps</text>
+  <rect x="600" y="300" width="464" height="244" rx="26" fill="#FFFFFF" stroke="#D5E2EC"/>
+  <text x="632" y="350" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">LLM Coach</text>
+  <rect x="632" y="392" width="300" height="14" rx="7" fill="#D7E0EA"/><rect x="632" y="430" width="246" height="14" rx="7" fill="#D7E0EA"/>
+  <circle cx="938" cy="446" r="42" fill="#DBEAFE" stroke="#C8DDF2"/>
+  <rect x="84" y="612" width="214" height="50" rx="18" fill="#FFFFFF" stroke="#C8DDF2"/><text x="116" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Streamlit</text>
+  <rect x="318" y="612" width="214" height="50" rx="18" fill="#FFFFFF" stroke="#A7E8DA"/><text x="350" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">LangChain</text>
+  <rect x="552" y="612" width="260" height="50" rx="18" fill="#FFFFFF" stroke="#F8DD9A"/><text x="584" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Voice Responses</text>
+  <defs><linearGradient id="bg" x1="0" x2="1200" y1="0" y2="750"><stop stop-color="#EFF6FF"/><stop offset=".52" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E6FAF8"/></linearGradient></defs>
+</svg>

@@ -1,0 +1,21 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="36" fill="#F8FBFC"/><rect width="1200" height="750" rx="36" fill="url(#bg)"/>
+  <path d="M744 202h38v326h-38zM806 134h50v394h-50zM880 248h34v280h-34zM938 178h62v350h-62zM1028 98h42v430h-42z" fill="#0F172A" opacity=".045"/>
+  <rect x="54" y="48" width="1092" height="654" rx="30" fill="white" fill-opacity=".78" stroke="#CAD8E5"/>
+  <circle cx="92" cy="86" r="9" fill="#F87171"/><circle cx="122" cy="86" r="9" fill="#FBBF24"/><circle cx="152" cy="86" r="9" fill="#34D399"/>
+  <text x="84" y="144" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="5">UAE FINTECH AI</text>
+  <text x="84" y="199" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="900">AI Banking Support</text>
+  <text x="86" y="238" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="20">Bilingual Arabic-English banking assistant with intent and voice workflows</text>
+  <rect x="84" y="300" width="460" height="244" rx="26" fill="#FFFFFF" stroke="#D5E2EC"/>
+  <text x="116" y="350" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">Support Console</text>
+  <rect x="116" y="392" width="310" height="14" rx="7" fill="#D7E0EA"/><rect x="116" y="430" width="260" height="14" rx="7" fill="#D7E0EA"/><rect x="116" y="468" width="330" height="14" rx="7" fill="#D7E0EA"/>
+  <rect x="600" y="300" width="464" height="244" rx="26" fill="#FFFFFF" stroke="#D5E2EC"/>
+  <text x="632" y="350" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">Voice + Intent AI</text>
+  <circle cx="694" cy="438" r="54" fill="#FEF3C7" stroke="#F8DD9A"/>
+  <path d="M690 412v52M668 438h44" stroke="#B45309" stroke-width="8" stroke-linecap="round"/>
+  <rect x="780" y="398" width="204" height="34" rx="17" fill="#ECFDF5"/><rect x="780" y="462" width="154" height="34" rx="17" fill="#EFF6FF"/>
+  <rect x="84" y="612" width="214" height="50" rx="18" fill="#FFFFFF" stroke="#F8DD9A"/><text x="116" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Arabic + English</text>
+  <rect x="318" y="612" width="214" height="50" rx="18" fill="#FFFFFF" stroke="#A7E8DA"/><text x="350" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">STT + TTS</text>
+  <rect x="552" y="612" width="260" height="50" rx="18" fill="#FFFFFF" stroke="#C8DDF2"/><text x="584" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Escalation Workflows</text>
+  <defs><linearGradient id="bg" x1="0" x2="1200" y1="0" y2="750"><stop stop-color="#FFF7E8"/><stop offset=".52" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EFF6FF"/></linearGradient></defs>
+</svg>

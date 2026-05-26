@@ -1,0 +1,31 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="36" fill="#F8FBFC"/>
+  <rect width="1200" height="750" rx="36" fill="url(#bg)"/>
+  <path d="M752 210h36v318h-36zM814 140h48v388h-48zM888 254h32v274h-32zM944 184h62v344h-62zM1032 104h42v424h-42z" fill="#0F172A" opacity=".045"/>
+  <circle cx="1012" cy="98" r="210" fill="#14B8A6" opacity=".10"/><circle cx="126" cy="674" r="230" fill="#F59E0B" opacity=".09"/>
+  <rect x="54" y="48" width="1092" height="654" rx="30" fill="white" fill-opacity=".78" stroke="#CAD8E5"/>
+  <circle cx="92" cy="86" r="9" fill="#F87171"/><circle cx="122" cy="86" r="9" fill="#FBBF24"/><circle cx="152" cy="86" r="9" fill="#34D399"/>
+  <text x="84" y="144" fill="#0F766E" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="5">UAE REAL ESTATE AI</text>
+  <text x="84" y="199" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="900">Real Estate AI Advisor</text>
+  <text x="86" y="238" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="20">Investor guidance, property matching, email lead capture, and AI lead scoring</text>
+  <rect x="84" y="300" width="460" height="244" rx="26" fill="#FFFFFF" stroke="#D5E2EC"/>
+  <text x="116" y="350" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">Property Intelligence</text>
+  <rect x="116" y="390" width="170" height="118" rx="18" fill="#ECFDF5" stroke="#A7E8DA"/>
+  <rect x="310" y="390" width="170" height="118" rx="18" fill="#FFFBEB" stroke="#F8DD9A"/>
+  <text x="148" y="456" fill="#0F766E" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Bayut API</text>
+  <text x="342" y="456" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">UAE Leads</text>
+  <rect x="600" y="300" width="464" height="244" rx="26" fill="#FFFFFF" stroke="#D5E2EC"/>
+  <text x="632" y="350" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">Lead Capture Flow</text>
+  <rect x="632" y="392" width="260" height="14" rx="7" fill="#D7E0EA"/>
+  <rect x="632" y="430" width="326" height="14" rx="7" fill="#D7E0EA"/>
+  <rect x="632" y="476" width="118" height="42" rx="21" fill="#ECFDF5" stroke="#A7E8DA"/>
+  <rect x="766" y="476" width="132" height="42" rx="21" fill="#FFFBEB" stroke="#F8DD9A"/>
+  <rect x="914" y="476" width="94" height="42" rx="21" fill="#EFF6FF" stroke="#C8DDF2"/>
+  <text x="668" y="503" fill="#0F766E" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">Hot</text>
+  <text x="802" y="503" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">Warm</text>
+  <text x="942" y="503" fill="#1D4ED8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">Cold</text>
+  <rect x="84" y="612" width="214" height="50" rx="18" fill="#FFFFFF" stroke="#A7E8DA"/><text x="116" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">n8n + Flowise</text>
+  <rect x="318" y="612" width="214" height="50" rx="18" fill="#FFFFFF" stroke="#F8DD9A"/><text x="350" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Email Leads</text>
+  <rect x="552" y="612" width="260" height="50" rx="18" fill="#FFFFFF" stroke="#C8DDF2"/><text x="584" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Google Sheets + Email</text>
+  <defs><linearGradient id="bg" x1="0" x2="1200" y1="0" y2="750"><stop stop-color="#E6FAF8"/><stop offset=".52" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFF7E8"/></linearGradient></defs>
+</svg>

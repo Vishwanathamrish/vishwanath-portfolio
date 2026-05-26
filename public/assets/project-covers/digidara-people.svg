@@ -1,0 +1,32 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="36" fill="#F8FBFC"/>
+  <rect width="1200" height="750" rx="36" fill="url(#bg)"/>
+  <path d="M742 202h38v326h-38zM806 128h50v400h-50zM878 250h36v278h-36zM938 174h62v354h-62zM1028 98h42v430h-42z" fill="#0F172A" opacity=".045"/>
+  <circle cx="1014" cy="98" r="218" fill="#60A5FA" opacity=".10"/>
+  <circle cx="120" cy="670" r="230" fill="#14B8A6" opacity=".08"/>
+  <rect x="54" y="48" width="1092" height="654" rx="30" fill="white" fill-opacity=".78" stroke="#CAD8E5"/>
+  <circle cx="92" cy="86" r="9" fill="#F87171"/><circle cx="122" cy="86" r="9" fill="#FBBF24"/><circle cx="152" cy="86" r="9" fill="#34D399"/>
+  <text x="84" y="144" fill="#1D4ED8" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="5">HRMS + BIOMETRIC AI</text>
+  <text x="84" y="199" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="900">DigiDARA People</text>
+  <text x="86" y="238" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="20">Production HR platform with attendance, leave, and authenticated AI support</text>
+  <rect x="84" y="300" width="462" height="244" rx="26" fill="#FFFFFF" stroke="#D5E2EC"/>
+  <text x="116" y="350" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">HR Operations</text>
+  <rect x="116" y="398" width="120" height="84" rx="18" fill="#EFF6FF" stroke="#C8DDF2"/>
+  <rect x="260" y="398" width="120" height="84" rx="18" fill="#ECFDF5" stroke="#A7E8DA"/>
+  <rect x="404" y="398" width="92" height="84" rx="18" fill="#FFFBEB" stroke="#F8DD9A"/>
+  <text x="140" y="448" fill="#1D4ED8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">People</text>
+  <text x="286" y="448" fill="#0F766E" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">Leave</text>
+  <text x="430" y="448" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">AI</text>
+  <rect x="600" y="300" width="464" height="244" rx="26" fill="#FFFFFF" stroke="#D5E2EC"/>
+  <text x="632" y="350" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">Biometric Sync</text>
+  <circle cx="690" cy="432" r="44" fill="#DBEAFE"/>
+  <path d="M740 432h250" stroke="#60A5FA" stroke-width="8" stroke-linecap="round" opacity=".82"/>
+  <path d="M772 392h174M772 472h132" stroke="#D7E0EA" stroke-width="14" stroke-linecap="round"/>
+  <rect x="84" y="612" width="214" height="50" rx="18" fill="#FFFFFF" stroke="#C8DDF2"/>
+  <text x="116" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">~100 Employees</text>
+  <rect x="318" y="612" width="214" height="50" rx="18" fill="#FFFFFF" stroke="#A7E8DA"/>
+  <text x="350" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">30-min Sync</text>
+  <rect x="552" y="612" width="260" height="50" rx="18" fill="#FFFFFF" stroke="#F8DD9A"/>
+  <text x="584" y="644" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">2-3 Hours Saved/day</text>
+  <defs><linearGradient id="bg" x1="0" x2="1200" y1="0" y2="750"><stop stop-color="#EFF6FF"/><stop offset=".52" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E6FAF8"/></linearGradient></defs>
+</svg>
