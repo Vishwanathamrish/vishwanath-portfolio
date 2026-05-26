@@ -12,6 +12,7 @@ import {
   Code2,
   Download,
   ExternalLink,
+  GraduationCap,
   Github,
   Mail,
   MapPin,
@@ -304,6 +305,71 @@ export function AboutSection() {
               <Card className="h-full">
                 <CheckCircle2 className="mb-5 h-6 w-6 text-primary" />
                 <p className="text-lg leading-8">{item}</p>
+              </Card>
+            </Reveal>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export function EducationSection() {
+  const education = [
+    {
+      degree: "M.Sc. in Data Science & Business Analytics",
+      institution: "Vels Institute of Science, Technology & Advanced Studies, Chennai",
+      year: "2024",
+      score: "81%",
+      focus: ["Data Science", "Business Analytics", "Machine Learning", "Statistics"]
+    },
+    {
+      degree: "B.Sc. in Mathematics",
+      institution: "Sri Krishna Arts & Science College, Coimbatore",
+      year: "2022",
+      score: "84%",
+      focus: ["Mathematics", "Probability", "Analytical Thinking", "Problem Solving"]
+    }
+  ];
+
+  return (
+    <section id="education" className="section-pad professional-band">
+      <div className="container">
+        <SectionHeading
+          eyebrow="Education"
+          title="Academic foundation in data science, analytics, mathematics, and applied AI thinking."
+          description="A concise education layer supporting AI Engineer, ML Engineer, GenAI Specialist, and AI Full Stack Developer roles."
+        />
+        <div className="grid gap-4 lg:grid-cols-2">
+          {education.map((item, index) => (
+            <Reveal key={item.degree} delay={index * 0.08}>
+              <Card className="h-full overflow-hidden p-0">
+                <div className="border-b bg-background/52 p-6">
+                  <div className="flex items-start justify-between gap-4">
+                    <span className="grid h-12 w-12 place-items-center rounded-lg border bg-primary/10 text-primary">
+                      <GraduationCap className="h-6 w-6" />
+                    </span>
+                    <span className="rounded-full border bg-background/80 px-3 py-1 text-xs font-bold text-primary">
+                      {item.score}
+                    </span>
+                  </div>
+                  <h3 className="mt-5 text-2xl font-semibold tracking-tight">{item.degree}</h3>
+                  <p className="mt-2 text-sm leading-6 text-muted-foreground">{item.institution}</p>
+                </div>
+                <div className="p-6">
+                  <div className="mb-4 flex flex-wrap gap-2">
+                    <span className="rounded-full border bg-background/75 px-3 py-1.5 text-xs font-semibold text-muted-foreground">
+                      Graduated {item.year}
+                    </span>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {item.focus.map((focus) => (
+                      <span key={focus} className="rounded-md border bg-muted/60 px-3 py-1.5 text-xs font-semibold text-muted-foreground">
+                        {focus}
+                      </span>
+                    ))}
+                  </div>
+                </div>
               </Card>
             </Reveal>
           ))}
@@ -1149,6 +1215,7 @@ export function PortfolioPage() {
       <HeroSection />
       <TechMarquee />
       <AboutSection />
+      <EducationSection />
       <SkillsSection />
       <ExperienceSection />
       <ProjectsSection />
