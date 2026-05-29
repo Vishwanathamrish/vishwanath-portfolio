@@ -391,7 +391,7 @@ export function SkillsSection() {
     "GenAI & LLM Systems": "Domain AI assistants, RAG workflows, AI agents, prompt systems, and semantic search experiences",
     "Backend & API Engineering": "Python/FastAPI services, secure REST APIs, MySQL-backed workflows, assessment engines, data services, and integration layers",
     "ML, NLP & Data Science": "NLP, Transformer models, R Programming, feature engineering, model evaluation, statistics, and applied analytics",
-    "Automation & DevOps": "Cron/Celery jobs, email workflows, Docker readiness, Git/GitHub operations, and repeatable delivery",
+    "Automation & DevOps": "Vercel deployment, Cron/Celery jobs, email workflows, Docker readiness, Git/GitHub operations, and repeatable delivery",
     "Enterprise Data Integration": "HikVision biometric sync, device-to-server pipelines, GPS attendance, geo-fencing, branch systems, and BI"
   };
   const capabilityProof: Record<string, string> = {
@@ -399,7 +399,7 @@ export function SkillsSection() {
     "GenAI & LLM Systems": "LMS platform assistant, course-specific chatbot, Career Mate, DOCUMIND, banking AI, Qdrant/FAISS-ready retrieval, and applied personal AI systems",
     "Backend & API Engineering": "Python/FastAPI delivery across LMS, career portal, HRMS, biometric sync, GPS attendance, and admin workflows",
     "ML, NLP & Data Science": "Resume-aligned coverage across NLP, Transformers, supervised/unsupervised learning, R Programming, evaluation, Pandas, NumPy, and Scikit-learn",
-    "Automation & DevOps": "Automated certification, HR attendance sync every 30 minutes, email alerts, Cron/Celery jobs, Docker, Git, and GitHub",
+    "Automation & DevOps": "Automated certification, HR attendance sync every 30 minutes, email alerts, Vercel deployment, Cron/Celery jobs, Docker, Git, and GitHub",
     "Enterprise Data Integration": "DigiDARA People and GIA People: biometric integration, server DB sync, GPS check-in, 100m geo-fencing, and multi-branch HRMS"
   };
   const roleFit: Record<string, string> = {
@@ -495,7 +495,7 @@ export function SkillsSection() {
                         </div>
                       </div>
                       <span className="rounded-full border bg-background/70 px-3 py-1 text-xs font-bold text-primary">
-                        {group.level}% ready
+                        Evidence-based
                       </span>
                     </div>
 
@@ -510,20 +510,11 @@ export function SkillsSection() {
                       </div>
                     </div>
 
-                    <div className="mb-6">
-                      <div className="mb-2 flex items-center justify-between text-xs font-semibold text-muted-foreground">
-                        <span>Recruiter confidence</span>
-                        <span>{group.level}%</span>
-                      </div>
-                      <div className="h-2.5 overflow-hidden rounded-full bg-muted">
-                        <MotionDiv
-                          className="h-full rounded-full bg-gradient-to-r from-primary to-accent"
-                          initial={{ width: 0 }}
-                          whileInView={{ width: `${group.level}%` }}
-                          viewport={{ once: true }}
-                          transition={{ duration: 0.9, delay: 0.1 }}
-                        />
-                      </div>
+                    <div className="mb-6 rounded-lg border bg-background/58 p-3">
+                      <p className="text-xs font-bold uppercase tracking-[0.18em] text-muted-foreground">Recruiter signal</p>
+                      <p className="mt-2 text-sm leading-6 text-muted-foreground">
+                        Supported by live projects, production workflows, and resume-aligned implementation proof.
+                      </p>
                     </div>
 
                     <div className="grid gap-2">
@@ -588,7 +579,7 @@ export function TechMarquee() {
     ["Statistics", ["Descriptive Statistics", "Inferential Statistics", "Probability", "Hypothesis Testing", "Regression Analysis"]],
     ["Frameworks & Backend", ["FastAPI", "LangChain", "Streamlit", "REST API Design"]],
     ["Libraries & Vector Search", ["Hugging Face Transformers", "FAISS", "Qdrant", "Scikit-learn", "Pandas", "NumPy"]],
-    ["Deployment & DevOps", ["Docker", "Git", "GitHub", "Cron Jobs", "Celery"]],
+    ["Deployment & DevOps", ["Vercel", "Docker", "Git", "GitHub", "Cron Jobs", "Celery"]],
     ["Analytics & BI", ["Power BI", "Microsoft Excel", "Real-Time Analytics", "Business Reporting"]],
     ["Automation & Development Tools", ["n8n", "Flowise", "VS Code", "Google Colab", "Replit", "Rocket", "LLM Flow Builder"]],
     [

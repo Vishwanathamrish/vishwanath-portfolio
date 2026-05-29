@@ -75,7 +75,7 @@ export const skillGroups = [
     title: "Automation & DevOps",
     icon: Cloud,
     level: 84,
-    skills: ["Docker", "Git", "GitHub", "Cron jobs", "Celery", "Email automation"]
+    skills: ["Vercel", "Docker", "Git", "GitHub", "Cron jobs", "Celery"]
   },
   {
     title: "Enterprise Data Integration",
@@ -106,6 +106,7 @@ export const techMarquee = [
   "Geo-fencing",
   "Multi-Branch HRMS",
   "Streamlit",
+  "Vercel",
   "Docker",
   "SQL",
   "MySQL",
@@ -197,7 +198,7 @@ export const projects = [
     description:
       "Client-facing HRMS extending DigiDARA People with GPS attendance, 100m geo-fenced mobile check-in, MySQL-backed HR data, independent multi-branch employee/attendance/leave data, and centralized branch-level admin control.",
     github: profile.github,
-    live: "coming-soon",
+    live: "https://giaholidays.com/people/",
     stack: ["HRMS", "GPS Attendance", "100m Geo-Fencing", "MySQL", "Multi-Branch Management", "FastAPI", "Admin dashboard"],
     metrics: ["100m geo-fence", "Mobile attendance", "Branch-level control"],
     coverImage: "/assets/GIA People.png",
