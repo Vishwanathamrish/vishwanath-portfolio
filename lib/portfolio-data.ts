@@ -233,7 +233,7 @@ export const projects = [
     category: "UAE Fintech AI Assistant",
     description:
       "Bilingual Arabic/English banking support assistant for account inquiries, service requests, transaction support, escalation workflows, and voice-driven interaction.",
-    github: "https://github.com/Vishwanathamrish/AI-BANKING-CUSTOMER-SUPPORT",
+    github: "https://github.com/Vishwanathamrish/AI-BANKING-CUSTOMER-SUPPORT-CHATBOT-ARABIC-ENGLISH-",
     live: "https://www.linkedin.com/posts/vishwanath-r-4a940721b_artificialintelligence-machinelearning-conversationalai-activity-7447500992348151808-DJkm?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdpUgEBhtLhjSEDnf7mVaTacUP9VemfGpg",
     stack: ["LLMs", "NLP intent recognition", "Speech-to-text", "Text-to-speech", "Banking workflows"],
     metrics: ["Arabic + English", "Voice assistant", "Fintech-ready"],
