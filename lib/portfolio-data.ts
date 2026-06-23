@@ -198,11 +198,23 @@ export const projects = [
     description:
       "Client-facing HRMS extending DigiDARA People with GPS attendance, 100m geo-fenced mobile check-in, MySQL-backed HR data, independent multi-branch employee/attendance/leave data, and centralized branch-level admin control.",
     github: profile.github,
-    live: "https://giaholidays.com/people/",
+    live: "https://giaholidays.com/giapeople/",
     stack: ["HRMS", "GPS Attendance", "100m Geo-Fencing", "MySQL", "Multi-Branch Management", "FastAPI", "Admin dashboard"],
     metrics: ["100m geo-fence", "Mobile attendance", "Branch-level control"],
     coverImage: "/assets/GIA People.png",
     accent: "teal"
+  },
+  {
+    title: "NAUTICORE Marine Equipment Repairing LLC – Corporate Website",
+    category: "Client Project / Web Development",
+    description:
+      "After understanding the business requirements, service offerings, and customer journey, I designed, developed, and deployed a production-ready corporate website for a Dubai-based marine equipment repair and maintenance company. The responsive mobile-first website improves digital visibility through a clear service showcase, quote request workflow, SEO-optimized structure, and WhatsApp-powered customer enquiries.",
+    github: profile.github,
+    live: "https://nauticore-marine-equipment-repairing-cq58ib2p6.vercel.app/",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    metrics: ["Mobile-first UI", "WhatsApp enquiries", "SEO + Vercel deployment"],
+    coverImage: "/assets/NAUTICORE%20Marine%20Equipment%20Repairing%20LLC.png",
+    accent: "blue"
   },
   {
     title: "Real Estate AI Advisor",
@@ -271,6 +283,10 @@ export const companyProjectTitles = [
   "Career Mate AI Agent",
   "DigiDARA People",
   "GIA People"
+];
+
+export const clientProjectTitles = [
+  "NAUTICORE Marine Equipment Repairing LLC – Corporate Website"
 ];
 
 export const personalProjectTitles = [

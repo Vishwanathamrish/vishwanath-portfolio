@@ -32,6 +32,7 @@ import { SectionHeading } from "@/components/section-heading";
 import {
   aiCapabilities,
   certifications,
+  clientProjectTitles,
   codingProfiles,
   companyProjectTitles,
   contactActions,
@@ -773,6 +774,7 @@ export function ProjectsSection() {
       .map((title) => projects.find((project) => project.title === title))
       .filter((project): project is (typeof projects)[number] => Boolean(project));
   const companyProjects = orderProjects(companyProjectTitles);
+  const clientProjects = orderProjects(clientProjectTitles);
   const personalProjects = orderProjects(personalProjectTitles);
   const renderProjectGrid = (items: typeof projects, options?: { showGithub?: boolean }) => (
     <div className="grid gap-5 lg:grid-cols-2">
@@ -878,6 +880,19 @@ export function ProjectsSection() {
           <div>
             <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
               <div>
+                <p className="text-xs font-bold uppercase tracking-[0.24em] text-primary">Client Projects</p>
+                <h3 className="mt-2 text-2xl font-semibold tracking-tight">Independent client delivery</h3>
+              </div>
+              <span className="rounded-full border bg-background/80 px-3 py-1 text-xs font-semibold text-muted-foreground">
+                {clientProjects.length} client website
+              </span>
+            </div>
+            {renderProjectGrid(clientProjects, { showGithub: false })}
+          </div>
+
+          <div>
+            <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
+              <div>
                 <p className="text-xs font-bold uppercase tracking-[0.24em] text-primary">Personal AI Projects</p>
                 <h3 className="mt-2 text-2xl font-semibold tracking-tight">Applied AI experiments and domain products</h3>
               </div>
@@ -978,10 +993,11 @@ export function ProofSection() {
                 </div>
                 <Github className="h-8 w-8 text-primary" />
               </div>
-              <div className="mt-6 grid gap-3 sm:grid-cols-3">
+              <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
                 {[
-                  ["9+", "AI / full-stack projects"],
+                  ["10+", "AI / full-stack projects"],
                   ["4", "company enterprise systems"],
+                  ["1", "client project"],
                   ["5", "personal AI builds"]
                 ].map(([value, label]) => (
                   <div key={label} className="rounded-lg border bg-background/70 p-4">
