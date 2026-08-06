@@ -130,7 +130,7 @@ export const experience = [
   {
     company: "DigiDARA Technologies Pvt Ltd",
     role: "AI Engineer",
-    period: "May 2025 - May 2026",
+    period: "May 2025 - Present",
     location: "Tiruchirapalli, India",
     points: [
       "Led end-to-end delivery of DigiDARA AI Academy, a full-stack AI-powered LMS covering architecture, frontend development, backend engineering, admin systems, and AI integration.",
