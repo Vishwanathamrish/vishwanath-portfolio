@@ -12,7 +12,7 @@ Premium recruiter-focused portfolio for UAE, Dubai, SaaS, AI startup, enterprise
 - Lucide icons
 - Dark/light mode
 - SEO metadata, Open Graph, sitemap, robots, structured data
-- No-backend contact form that opens a prefilled email draft
+- Direct email, LinkedIn, GitHub, and WhatsApp contact actions
 
 ## Local Development
 
@@ -32,9 +32,9 @@ npm run start
 
 The project is ready for Vercel. Vercel will install dependencies from `package.json` and run the Next build.
 
-## Contact Form
+## Contact
 
-The contact form uses `mailto:` to open a prefilled email draft, so it works without SMTP, Formspree, Web3Forms, or a custom backend.
+The portfolio provides direct contact actions without requiring a custom backend.
 
 ## Content Updates
 
@@ -44,4 +44,4 @@ Most portfolio content lives in:
 lib/portfolio-data.ts
 ```
 
-Update projects, skills, certifications, links, coding profiles, and testimonial placeholders there.
+Update projects, skills, experience, education, profile details, and contact links there.

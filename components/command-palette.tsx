@@ -26,7 +26,7 @@ export function CommandPalette() {
       return;
     }
 
-    window.location.href = href;
+    window.open(href, "_self");
   };
 
   return (

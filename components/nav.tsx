@@ -13,15 +13,13 @@ export function Nav() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-border/60 bg-background/86 shadow-sm backdrop-blur-2xl">
       <nav className="container flex h-20 items-center justify-between">
-        <Link href="/" className="group flex items-center font-semibold" aria-label="Vishwanath portfolio home">
+        <Link href="/#top" className="group flex min-w-0 items-center font-semibold" aria-label="Vishwanath portfolio home">
           <span className="nav-signature">
             <span className="nav-signature-top" />
             <span className="nav-signature-left" />
             <span className="nav-signature-bottom" />
             <span className="nav-signature-right" />
-            <span className="nav-signature-text">
-              {profile.shortName}
-            </span>
+            <span className="nav-signature-text">{profile.shortName}</span>
           </span>
         </Link>
 
@@ -40,7 +38,7 @@ export function Nav() {
         <div className="hidden items-center gap-3 lg:flex">
           <span className="inline-flex items-center gap-2 rounded-md border border-primary/20 bg-primary/10 px-3 py-2 text-xs font-bold text-foreground shadow-sm">
             <MapPin className="h-3.5 w-3.5 text-primary" />
-            UAE available
+            Dubai, UAE
           </span>
           <Button variant="secondary" size="sm" asChild>
             <Link href={profile.resume} target="_blank" rel="noopener noreferrer">
@@ -53,14 +51,14 @@ export function Nav() {
 
         <div className="flex items-center gap-2 lg:hidden">
           <ThemeToggle />
-          <Button variant="secondary" size="icon" onClick={() => setOpen((value) => !value)} aria-label="Open menu">
+          <Button variant="secondary" size="icon" onClick={() => setOpen((value) => !value)} aria-label={open ? "Close menu" : "Open menu"} aria-expanded={open} aria-controls="mobile-navigation">
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </Button>
         </div>
       </nav>
 
       {open ? (
-        <div className="mx-3 mt-2 rounded-lg border bg-background/95 p-3 shadow-glass backdrop-blur-xl lg:hidden">
+        <div id="mobile-navigation" className="mx-3 mt-2 rounded-lg border bg-background/95 p-3 shadow-glass backdrop-blur-xl lg:hidden">
           <div className="grid gap-1">
             {navItems.map((item) => (
               <Link
