@@ -45,3 +45,16 @@ lib/portfolio-data.ts
 ```
 
 Update projects, skills, experience, education, profile details, and contact links there.
+
+## Recruiter Chatbot
+
+The floating portfolio assistant always supports deterministic answers derived from verified portfolio data. Groq can optionally improve conversational phrasing through its OpenAI-compatible API. Configure these server-only variables in Vercel; never expose the API key through a `NEXT_PUBLIC_` variable:
+
+```text
+GROQ_API_KEY=
+GROQ_MODEL=openai/gpt-oss-20b
+GROQ_API_BASE_URL=https://api.groq.com/openai/v1
+GROQ_TIMEOUT_MS=8000
+```
+
+If the key is missing, the provider times out, or it returns an error or usage-limit response, the API automatically returns the local verified answer. The route limits input and short-term history, validates requests, and applies a lightweight per-client request limit suitable for a single Vercel instance. For stronger distributed abuse protection at higher traffic, connect a shared rate-limit store.

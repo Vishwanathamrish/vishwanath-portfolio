@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { CommandPalette } from "@/components/command-palette";
+import { RecruiterChat } from "@/components/recruiter-chat";
 
 const siteUrl = "https://vishwanath-portfolio-flax.vercel.app";
 
@@ -83,6 +84,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           {children}
           <CommandPalette />
+          <RecruiterChat />
         </ThemeProvider>
       </body>
     </html>

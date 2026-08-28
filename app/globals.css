@@ -480,3 +480,100 @@ button:focus-visible {
 nextjs-portal {
   display: none !important;
 }
+
+.recruiter-chat-shell {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 70;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .75rem;
+}
+
+.recruiter-chat-launcher {
+  display: inline-flex;
+  min-height: 3rem;
+  align-items: center;
+  gap: .55rem;
+  border: 1px solid hsl(var(--primary) / .45);
+  border-radius: 999px;
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  padding: .7rem 1rem;
+  font-size: .82rem;
+  font-weight: 700;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, .24);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.recruiter-chat-launcher:hover { transform: translateY(-2px); box-shadow: 0 16px 36px rgba(0, 0, 0, .3); }
+.recruiter-chat-launcher:focus-visible,
+.recruiter-chat-close:focus-visible,
+.recruiter-chat-form button:focus-visible,
+.recruiter-chat-starters button:focus-visible,
+.recruiter-chat-actions a:focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 2px; }
+
+.recruiter-chat-panel,
+.recruiter-chat-loading {
+  width: min(25rem, calc(100vw - 2rem));
+  border: 1px solid hsl(var(--border));
+  border-radius: 1.25rem;
+  background: hsl(var(--background));
+  box-shadow: 0 24px 70px rgba(0, 0, 0, .38);
+}
+
+.recruiter-chat-panel {
+  display: grid;
+  max-height: min(39rem, calc(100dvh - 6rem));
+  grid-template-rows: auto minmax(7rem, 1fr) auto auto auto;
+  overflow: hidden;
+}
+
+.recruiter-chat-loading { padding: 1rem; color: hsl(var(--muted-foreground)); font-size: .85rem; }
+.recruiter-chat-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; border-bottom: 1px solid hsl(var(--border)); padding: .9rem 1rem; }
+.recruiter-chat-avatar { display: grid; height: 2.35rem; width: 2.35rem; flex: 0 0 auto; place-items: center; border-radius: .75rem; background: hsl(var(--primary) / .13); color: hsl(var(--primary)); }
+.recruiter-chat-close { display: grid; height: 2.75rem; width: 2.75rem; flex: 0 0 auto; place-items: center; border-radius: .7rem; color: hsl(var(--muted-foreground)); }
+.recruiter-chat-close:hover { background: hsl(var(--muted)); color: hsl(var(--foreground)); }
+.recruiter-chat-messages { min-height: 0; overflow-x: hidden; overflow-y: auto; padding: 1rem; scrollbar-width: thin; }
+.recruiter-chat-message { display: grid; grid-template-columns: 1.65rem minmax(0, 1fr); gap: .55rem; margin-bottom: .9rem; }
+.recruiter-chat-message.user { direction: rtl; }
+.recruiter-chat-message.user > * { direction: ltr; }
+.recruiter-message-icon { display: grid; height: 1.65rem; width: 1.65rem; place-items: center; border-radius: .5rem; background: hsl(var(--muted)); color: hsl(var(--primary)); }
+.recruiter-message-icon svg { height: .9rem; width: .9rem; }
+.recruiter-chat-message p { overflow-wrap: anywhere; border-radius: .85rem; background: hsl(var(--muted) / .72); padding: .7rem .8rem; color: hsl(var(--foreground)); font-size: .82rem; line-height: 1.55; }
+.recruiter-chat-message.user p { background: hsl(var(--primary)); color: hsl(var(--primary-foreground)); }
+.recruiter-chat-actions { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .5rem; }
+.recruiter-chat-actions a { display: inline-flex; min-height: 2.75rem; align-items: center; gap: .25rem; border: 1px solid hsl(var(--border)); border-radius: 999px; padding: .35rem .65rem; color: hsl(var(--primary)); font-size: .7rem; font-weight: 700; }
+.recruiter-chat-actions a:hover { border-color: hsl(var(--primary) / .5); background: hsl(var(--primary) / .08); }
+.recruiter-chat-actions svg { height: .7rem; width: .7rem; }
+.recruiter-chat-thinking { display: flex; width: fit-content; gap: .25rem; border-radius: 999px; background: hsl(var(--muted)); padding: .65rem .8rem; margin-left: 2.2rem; }
+.recruiter-chat-thinking span:not(.sr-only) { height: .32rem; width: .32rem; border-radius: 50%; background: hsl(var(--muted-foreground)); animation: chat-dot 1.1s infinite ease-in-out; }
+.recruiter-chat-thinking span:nth-child(2) { animation-delay: .15s; }
+.recruiter-chat-thinking span:nth-child(3) { animation-delay: .3s; }
+@keyframes chat-dot { 0%, 60%, 100% { transform: translateY(0); opacity: .45; } 30% { transform: translateY(-3px); opacity: 1; } }
+.recruiter-chat-starters { display: grid; grid-template-columns: 1fr 1fr; gap: .45rem; border-top: 1px solid hsl(var(--border)); padding: .75rem 1rem; }
+.recruiter-chat-starters button { min-width: 0; min-height: 2.75rem; border: 1px solid hsl(var(--border)); border-radius: .7rem; padding: .5rem .55rem; text-align: left; color: hsl(var(--muted-foreground)); font-size: .7rem; line-height: 1.35; }
+.recruiter-chat-starters button:hover { border-color: hsl(var(--primary) / .45); color: hsl(var(--foreground)); }
+.recruiter-chat-form { display: grid; grid-template-columns: minmax(0, 1fr) 2.75rem; gap: .5rem; border-top: 1px solid hsl(var(--border)); padding: .75rem 1rem .55rem; }
+.recruiter-chat-form input { min-width: 0; border: 1px solid hsl(var(--border)); border-radius: .75rem; background: hsl(var(--muted) / .45); padding: .65rem .75rem; color: hsl(var(--foreground)); font-size: .8rem; outline: none; }
+.recruiter-chat-form input:focus { border-color: hsl(var(--primary)); box-shadow: 0 0 0 2px hsl(var(--primary) / .13); }
+.recruiter-chat-form button { display: grid; height: 2.75rem; width: 2.75rem; place-items: center; border-radius: .75rem; background: hsl(var(--primary)); color: hsl(var(--primary-foreground)); }
+.recruiter-chat-form button:disabled { cursor: not-allowed; opacity: .45; }
+.recruiter-chat-note { padding: 0 1rem .75rem; color: hsl(var(--muted-foreground)); font-size: .62rem; line-height: 1.35; }
+
+@media (max-width: 430px) {
+  .recruiter-chat-shell { right: .75rem; bottom: .75rem; left: .75rem; align-items: flex-end; }
+  .recruiter-chat-panel, .recruiter-chat-loading { width: 100%; }
+  .recruiter-chat-panel { max-height: calc(100dvh - 5.25rem); }
+  .recruiter-chat-starters { grid-template-columns: 1fr; }
+}
+
+/* Hide the local Next.js dev indicator so previews match the production portfolio. */
+[data-nextjs-dev-tools-button],
+[data-nextjs-dev-tools-panel],
+[data-nextjs-dev-tools-menu],
+nextjs-portal {
+  display: none !important;
+}
