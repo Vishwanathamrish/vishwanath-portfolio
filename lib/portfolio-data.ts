@@ -4,7 +4,7 @@ export const profile = {
   name: "Vishwanath Rajendran", shortName: "Vishwanath Rajendran", role: "AI Engineer",
   specialization: "Generative AI, Agentic AI, RAG & AI Applications", location: "Dubai, UAE",
   email: "vishwanathamrish@gmail.com", whatsapp: "https://wa.me/971508399243",
-  github: "https://github.com/Vishwanathamrish", linkedin: "https://linkedin.com/in/vishwanath-r-4a940721b",
+  github: "https://github.com/Vishwanathamrish", linkedin: "https://www.linkedin.com/in/vishwanath-rajendran-4a940721b/",
   twitter: "https://x.com/Vishwa84829045", resume: "/assets/VISHWANATH_UAE_Resume_2026.pdf",
   avatar: "/assets/Dubai%20Office%20Look(5).png"
 };
